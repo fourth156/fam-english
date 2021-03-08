@@ -1,0 +1,27 @@
+.App {
+  margin: 20px;
+}
+
+#result {
+  width: 35vw;
+  margin: 0 auto;
+}
+
+.diffArea {
+  display: flex;
+  margin: 20px -20px;
+}
+
+.diffBox {
+  margin: 0 20px;
+  width: 90vw !important;
+  min-height: 10rem;
+}
+
+.sideBySideBtn {
+  margin: 2rem 0;
+}
+
+.diffArea > ul > li {
+  color: #CED9E0;
+}

@@ -1,9 +1,14 @@
+@import "~normalize.css";
+@import "~@blueprintjs/core/lib/css/blueprint.css";
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: #182026;
+  color: #CED9E0;
 }
 
 a {
@@ -13,4 +18,13 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+textarea {
+  background: #5C7080 !important;
+  color: #BFCCD6 !important;
+}
+
+textarea::placeholder {
+  color: #cccccc !important;
 }

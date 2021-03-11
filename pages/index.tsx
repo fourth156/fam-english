@@ -13,13 +13,13 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Hello, Fam</title>
+        <title>Wazzup, Fam</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main onClick={handleClick} className={styles.main}>
         <h1 className={styles.title}>
-          Hello, Fam!
+        Wazzup, Fam!
         </h1>
       </main>
     </div>
